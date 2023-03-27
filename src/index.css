@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.buttonDisable{
+  border-radius: 5px;
+   height: 30px;
+    margin-top: 16px;
+   background-color: lightgray;
+}
+.buttonEnable{
+  border-radius: 5px;
+   height: 30px;
+
+    margin-top: 16px;
+   background-color: skyblue;
+}
+
+.textBoxStyles{
+  border-radius: 5px;
+  width: '200px!important';
+   height: '25px!important';
 }

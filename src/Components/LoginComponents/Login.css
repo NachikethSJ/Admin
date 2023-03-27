@@ -1,0 +1,53 @@
+/* @media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  } */ 
+  .parentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: azure; */
+}
+
+  .parent{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: azure;
+  }
+  .buttonDisable{
+    border-radius: 5px;
+     height: 30px;
+      width: 205px;
+      margin-top: 16px;
+     background-color: lightgray;
+  }
+  .buttonEnable{
+    border-radius: 5px;
+     height: 30px;
+      width: 205px;
+      margin-top: 16px;
+     background-color: skyblue;
+  }
+  .buttonDisable_signup{
+    border-radius: 5px;
+     height: 30px;
+      width: 95px;
+      margin-top: 16px;
+     background-color: lightgray;
+  }
+  .buttonEnable_signup{
+    border-radius: 5px;
+     height: 30px;
+      width: 95px;
+      margin-top: 16px;
+     background-color: skyblue;
+  }
